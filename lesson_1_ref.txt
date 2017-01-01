@@ -1,0 +1,25 @@
+How I felt when using diff or in my case FC?
+I didn't know about this tool before. 
+But I can see how people think that it's useful - at least before there was git
+As I have used git already, I'm used to the plus minus notation. Nonetheless, it was an interesting experience.
+
+Why save whole history of a file as a programmer?
+It's not clear which version you would want later on. 
+Having the whole history enables you to jump back to any other point in time.
+
+Pros and cons comparing to manually saving compared to automatic saving?
+Automatic pro: Even when busy programming keeps saving file. 
+Automatic con: States of the project when saved not meaningful is most cases. 
+
+Why git records changes of files together but google docs separately?
+Usually when you edit a file at google docs, you are editing only that specific file. It's very rare to have connected files that belong together (at least for most users).
+However git is intended for software project which are mostly much larger and split into many files. 
+It makes sense looking at the use cases. 
+
+How to use git log?
+It shows the history of a git repository - commits with messages and time stamps. 
+How to use git diff?
+Shows the difference between two commits.
+
+How could it make you more confident making risky changes?
+It certainly makes programmers more confident because changes can be easily reverted and bugs can be found more easily. Using commits also helps to having a more clear idea what you want to do and break it into smaller chunks. 

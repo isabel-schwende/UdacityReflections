@@ -1,0 +1,4 @@
+What happens when you initialize a repo?
+It creates a .git file that contains all settings for this repository in default settings.
+Why do you need to do it?
+We need the .git file to proceed further - it becomes our starting point. 
