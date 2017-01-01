@@ -1,4 +1,9 @@
 What happens when you initialize a repo?
 It creates a .git file that contains all settings for this repository in default settings.
 Why do you need to do it?
-We need the .git file to proceed further - it becomes our starting point. 
+We need the .git file to proceed further - it becomes our starting point.
+
+Staging area difference to working dir and repo?
+Temporary area where we can arrange files for commits regardless of their location in the file system before adding them to the repository. 
+What is the value?
+Arrange first before committing - ensure logical coherence of files.  
