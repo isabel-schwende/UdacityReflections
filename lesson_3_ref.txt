@@ -1,1 +1,7 @@
 Udacity lesson 3 reflections for git and github class
+
+When would you want to use a remote repository rather than keeping all your work local?
+There are several reasons why I would want to work on a remote.
+a) it's safer as the content is stored in the cloud - so even when the local copy is lost, the content is safe
+b) other people can contribute 
+c) I can work on the same code from different devices
