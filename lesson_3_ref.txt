@@ -5,3 +5,6 @@ There are several reasons why I would want to work on a remote.
 a) it's safer as the content is stored in the cloud - so even when the local copy is lost, the content is safe
 b) other people can contribute 
 c) I can work on the same code from different devices
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+I can work on it when I don't have internet access. 
