@@ -1,0 +1,1 @@
+Reflections for first lesson of "Intro into parallel programming" class on Udacity
