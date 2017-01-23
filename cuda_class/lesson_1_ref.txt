@@ -1,1 +1,31 @@
 Reflections for first lesson of "Intro into parallel programming" class on Udacity
+
+Typical GPU program:
+1. Allocate memory on GPU cudaMalloc
+2. CPU copies input data CPU -> GPU cudaMemcpy
+3. for Computation CPU launches kernels on GPU
+4. CPU copies results back GPU -> CPU cudaMemcpy
+
+Big Idea of GPU computation:
+kernels look like serial programs -> define this program to run on a single thread -> tell the GPU how many kernels to launch
+
+GPU doesn't get out of bed for less than 1000 threads -> GPU is good at launching and running a large number of threads
+
+thread: one independent path of execution of the code
+GPU program does not specify degree of parallelism -> this is defined in the CPU code
+
+to run a cuda program:
+nvcc -o executable_name input_file.cu 
+
+naming convention in cuda code for variable names:
+h_  variable on host
+d_  variable on (GPU) device
+
+Declare GPU memory with pointers
+cudaMemcpy(destination, source, number of bytes, direction)
+see: http://horacio9573.no-ip.org/cuda/group__CUDART__MEMORY_g48efa06b81cc031b2aa6fdc2e9930741.html
+
+you can only launch a kernel on GPU data (not CPU data)
+
+__global__ keyword to specify that it's GPU code
+threadIdx cuda builtin thread index variable
