@@ -29,3 +29,12 @@ you can only launch a kernel on GPU data (not CPU data)
 
 __global__ keyword to specify that it's GPU code
 threadIdx cuda builtin thread index variable
+blockIdx  equivalent function for blocks
+grid -> 3-dim block -> 3-dim thread
+threads can be spread flexibly over the grid => try to find best distribution
+
+kernel<<<grid of blocks, blocks of threads>>>
+
+central idea:
+map(elements to process, function on elements)
+diverse communication patterns can be defined
