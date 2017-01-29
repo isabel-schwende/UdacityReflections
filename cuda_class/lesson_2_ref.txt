@@ -1,0 +1,1 @@
+Reflection file for lesson 2 of the parallel programming class on Udacity
